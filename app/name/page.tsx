@@ -3,6 +3,7 @@
 import { useRouter } from 'next/navigation';
 
 export default function GiveName(){
+  const router = useRouter();
   return (
     <h1>My Name Is Kashif Umar
 
