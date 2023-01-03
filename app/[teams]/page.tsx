@@ -5,7 +5,7 @@ export default function DisplayTeam({params, searchParams}:{
 }){
   return (
     <div>
-      This is the page for the Team {params.name}
+      This is the page for the Team {params.name} and {searchParams?.id}
       <ul>
         <li>
         <Link href="/soccer">Soccer</Link>
