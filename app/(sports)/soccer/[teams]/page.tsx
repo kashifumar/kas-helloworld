@@ -1,7 +1,7 @@
 import Link from 'next/link';
 export default function DisplayTeam({params, searchParams}:{
   params:{name:string},
-  searchParams: { id: string },
+  searchParams?: { id: string },
 }){
   return (
     <div>
