@@ -1,18 +1,12 @@
-import Link from 'next/link';
 
-export default function DisplayTeam({params,searchParams}:{
-  params:{name:string},
-  searchParams:{id:string},
-}){
-  return (
-    <div>
-      This is the page for the Team {params.name}
-      <ul>
-        <li>
-        <Link href="/soccer">Soccer</Link>
-        <Link href="/">Home</Link>
-        </li>
-      </ul>
-    </div>
-  )
-}
+export default function GiveName({ params, searchParams }: {
+  params: { name: string },
+  searchParams: { id: string },
+}) {
+  
+    return (
+      <div>
+            My name is {params.name}.
+      </div>
+    )
+  }
