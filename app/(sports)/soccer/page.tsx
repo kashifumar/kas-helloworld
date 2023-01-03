@@ -7,9 +7,11 @@ export default function DisplaySoccer(){
 
   return (
     <div>
-      <button type="button" onClick={() => router.push('soccer/players')}></button>
+      <button type="button" onClick={() => router.push('soccer/players')}>Players</button>
       <ul>
-        <li><Link href="/">Home</Link></li>
+      <li><Link href="/soccer/chelsea">Chelsea</Link></li>
+      <li><Link href="/soccer/real-madrid">Real Madrid</Link></li>
+      <li><Link href="/">Home</Link></li>
       </ul>
     </div>
   );
