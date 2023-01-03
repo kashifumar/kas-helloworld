@@ -7,9 +7,16 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div>Hello World
-      <br/>
-          <Link href="/name">Go to name page</Link>
+    <div>My First NextJS App
+      <ul>
+      <li>
+        <Link href="/name">My Name</Link>
+        </li>
+        <li>
+        <Link href="/soccer">Soccer</Link>
+        </li>
+      </ul>
+          
     </div>
     
 )
